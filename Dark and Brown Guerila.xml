@@ -8,6 +8,7 @@
 <!-- 4-->  <element id="ApplicationBackColour" bg="12,12,12" /> 
 <!-- 5-->  <element id="WindowBackColour" bg="12,12,12" /> 
 
+
 \\MENU BARS
 <!-- 6-->  <element id="MenuBar.Default" bg="12,12,12" fg="127,55,0" />
 <!-- 7-->  <element id="MenuBarSeparator" bg="31,31,31" bg2="31,231,31" />
@@ -99,7 +100,7 @@
 <!-- 62-->  <element id="TrackInfoPanel" />
 <!-- 63-->  <element id="ArtworkPanel" />
 \\ --- STAR RATING
-<!-- 64-->  <element id="Panel.StarRating.Default" fg="60,26,0" fg2="5,5,5" /> 
+<!-- 64-->  <element id="Panel.StarRating.Default" fg="60,26,0" fg2="12,12,12" /> 
 <!-- 65-->  <element id="Panel.StarRating.Highlight" fg="30,14,0" fg2="78,34,0" /> 
 <!-- 66-->  <element id="Panel.StarRating.Lowlight" fg="30,14,0" fg2="60,26,0" /> 
 \\ --- NOT LOVED ICON
@@ -133,30 +134,30 @@
 <!-- 89-->  <element id="Player.Volume" fg="240,240,240" bdr="163,163,163" /> 
 <!-- 90-->  <element id="Player.VolumeButton" bg="250,250,250" bg2="250,250,250" fg="105,105,105" bdr="125,125,125"/> 
 
-  <element id="PlayerFlat.Background" bg="70,70,70" bg2="100,100,100" fg="60,60,60" bdr="60,60,60" />
+  <element id="PlayerFlat.Background" bg="50,25,0" bg2="0,0,0" fg="175,0,0" bdr="0,0,175" />
   <element id="PlayerFlat.DisplayPanel" bg="30,30,30" bg2="12,12,12" fg="175,175,175" />
   <!-- PlayerFlat.ProgressBar differs from other progress bars in that fg is used for the fill colour and Player.ProgressButton is not used -->
   <element id="PlayerFlat.ProgressBar" bg="70,70,70" fg="60,26,0" bdr="55,55,55" />
   <element id="PlayerFlat.Control.Default" fg="240,240,240" />
   <element id="PlayerFlat.Control.Disabled" fg="140,140,140" />
   <element id="PlayerFlat.Control.Highlight" fg="175,175,175" />
-  <element id="PlayerFlat.StarRating.Default" fg="60,26,0" />
-  <element id="PlayerFlat.StarRating.Lowlight" fg="60,26,0" /> 
-  <element id="PlayerFlat.Volume" fg="175,175,175" bdr="130,130,130" />
-  <element id="PlayerFlat.VolumeButton" bg="175,175,175" bg2="175,175,175" bdr="130,130,130" />
-  <element id="PlayerFlat.VolumeSlider" fg="160,160,160" bg="100,100,100" bg2="100,100,100" /> 
+  <element id="PlayerFlat.StarRating.Default" fg="200,5,5" />
+  <element id="PlayerFlat.StarRating.Lowlight" fg="80,40,0" /> 
+  <element id="PlayerFlat.Volume" fg="130,130,130" bdr="130,130,130" />
+  <element id="PlayerFlat.VolumeButton" bg="12,12,12" bg2="100,50,0" bdr="55,55,55" />
+  <element id="PlayerFlat.VolumeSlider" fg="80,40,0" bg="80,80,80" bg2="80,80,80" /> 
   <element id="PlayerFlat.SpectrumDefault" bg="60,26,0" />
   <element id="PlayerFlat.SpectrumDead" bg="60,26,0" />
-  <element id="PlayerFlat.SpectrumLow" bg="60,26,0" />
+  <element id="PlayerFlat.SpectrumLow" bg="90,45,0" />
   <element id="PlayerFlat.SpectrumMedium" bg="127,26,0" />
-  <element id="PlayerFlat.SpectrumHigh" bg="255,0,0" />
-	<element id="Player.SpectrumDefault" bg="175,175,175" />
+  <element id="PlayerFlat.SpectrumHigh" bg="255,100,0" />
+  <element id="Player.SpectrumDefault" bg="175,175,175" />
   <element id="Player.SpectrumDead" bg="70,30,0" />
   <element id="Player.SpectrumLow" bg="70,30,0" />
   <element id="Player.SpectrumMedium" bg="127,26,0" />
   <element id="Player.SpectrumHigh" bg="190,50,0" />
 
-
+  
 <!-- 91-->  <element id="PlayerSidebar.Background" bg="12,12,12" fg="210,210,210" bdr="120,120,120" />
 <!-- 92-->  <element id="PlayerSidebar.Control.Default" bg="0,0,0" fg="210,210,210"/> 
 <!-- 93-->  <element id="PlayerSidebar.Control.Disabled" fg="100,100,100" /> 
@@ -209,13 +210,13 @@
 \\ --- EDIT POPSCREEN
 <!-- 128-->  <element id="EditPanel.Default" bg="40,40,40" fg="210,210,210" bdr="55,55,55" /> 
 <!-- 129-->  <element id="EditPanel.Highlight" fg="240,240,240" />
-<!-- 130-->  <element id="Controls.TabHeader.Default" bg="55,55,55" fg="180,180,180" bdr="55,55,55" /> 
-<!-- 131-->  <element id="Controls.TabHeader.Highlight" bg="60,60,60" fg="255,255,255"/> 
-<!-- 132-->  <element id="Controls.TabHeader.Lowlight" bg="45,45,45" fg="210,210,210" /> 
+<!-- 130-->  <element id="Controls.TabHeader.Default" bg="12,12,12" fg="180,180,180" bdr="55,55,55" /> 
+<!-- 131-->  <element id="Controls.TabHeader.Highlight" bg="60,30,0" fg="255,255,255"/> 
+<!-- 132-->  <element id="Controls.TabHeader.Lowlight" bg="95,45,45" fg="210,210,210" /> 
 <!-- 133-->  <element id="Toolbar.Background" bg="12,12,12"  fg="0,0,0" />
 <!-- 134-->  <element id="Toolbar.Body" bg="12,12,12"  fg="0,0,0" />
-<!-- 135-->  <element id="Toolbar.Counter" bg="175,175,175" fg="0,0,0" />
-<!-- 136-->  <element id="Controls.StarRating.Default" bg="60,60,60" fg="240,240,240" bdr="60,60,60" />
+<!-- 135-->  <element id="Toolbar.Counter" bg="75,35,0" fg="0,0,0" />
+<!-- 136-->  <element id="Controls.StarRating.Default" bg="60,60,60" fg="60,30,0" bdr="60,60,60" />
 
 \\NOW PLAYING POPUP
 <!-- 137-->  <element id="NowPlayingPopup.Border" bdr="0,0,0"/>
